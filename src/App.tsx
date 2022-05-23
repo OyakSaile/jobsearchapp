@@ -1,10 +1,16 @@
 import React from "react";
+import { Card } from "./components/Card";
+import { GlobalStyle } from "./styles/globals";
 
 export function App() {
   return (
-    <div className="App">
-      <h1>Hello World.</h1>
-    </div>
+    <>
+      <GlobalStyle />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+    </>
   );
 }
-
