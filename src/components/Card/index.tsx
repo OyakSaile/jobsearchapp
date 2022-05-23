@@ -3,9 +3,10 @@ import {
   CardLogoJob,
   CardInformationJob,
   CardInformationSallary,
+  TopButtons,
 } from "./style";
 import githubImage from "../../assets/githubImage.svg";
-import { FiMapPin } from "react-icons/fi";
+import { FiMapPin, FiStar, FiInfo } from "react-icons/fi";
 export function Card() {
   return (
     <CardContainer>
@@ -34,6 +35,13 @@ export function Card() {
         <p>Web Design</p>
         <span>R$ 5000,00</span>
       </CardInformationSallary>
+
+      <TopButtons>
+        <div>
+          <FiStar color="#E9D1AF" />
+          <FiInfo color="#CCCCCC" />
+        </div>
+      </TopButtons>
     </CardContainer>
   );
 }

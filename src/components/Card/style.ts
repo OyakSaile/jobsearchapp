@@ -6,7 +6,7 @@ export const CardContainer = styled.div`
   margin: 0 auto;
   box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.25);
   border-radius: 6px;
-  padding: 1rem;
+  padding: 5rem 1.5rem;
   display: grid;
   grid-template-columns: 6rem 1fr 6rem;
   gap: 1rem;
@@ -15,7 +15,7 @@ export const CardContainer = styled.div`
   position: relative;
   cursor: pointer;
   margin-top: 2rem;
-  transition: all .5s;
+  transition: all 0.5s;
 
   :hover {
     background-color: var(--primary);
@@ -26,21 +26,21 @@ export const CardContainer = styled.div`
         color: white;
       }
 
-       p {
-         color: white;
-       }
+      p {
+        color: white;
+      }
 
-       h2 {
-          color: white;
-       }
+      h2 {
+        color: white;
+      }
 
-       h1 {
-         color: white;
-       }
+      h1 {
+        color: white;
+      }
 
-       svg {
-         color: white;
-       }
+      svg {
+        color: white;
+      }
     }
   }
 `;
@@ -100,5 +100,20 @@ export const CardInformationSallary = styled.div`
     bottom: 1.5rem;
     right: 1.5rem;
     font-weight: bold;
+  }
+`;
+
+export const TopButtons = styled.div`
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+
+  div {
+    display: flex;
+    gap: 1rem;
+
+    svg {
+      font-size: 1.5rem;
+    }
   }
 `;
